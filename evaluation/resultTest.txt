@@ -1,0 +1,31 @@
+Dev test dataset:
+F1 macro: 0.6789634146341463 
+ Classfication report:
+               precision    recall  f1-score   support
+
+         OBJ       0.65      0.72      0.68       116
+        SUBJ       0.72      0.64      0.67       127
+
+    accuracy                           0.68       243
+   macro avg       0.68      0.68      0.68       243
+weighted avg       0.68      0.68      0.68       243
+ 
+ Relative confusion matrix:
+ [[0.72413793 0.27586207]
+ [0.36220472 0.63779528]]
+
+Test dataset (final):
+F1 macro: 0.6388501529051988 
+ Classfication report:
+               precision    recall  f1-score   support
+
+         OBJ       0.81      0.87      0.84       362
+        SUBJ       0.50      0.39      0.44       122
+
+    accuracy                           0.75       484
+   macro avg       0.65      0.63      0.64       484
+weighted avg       0.73      0.75      0.74       484
+ 
+ Relative confusion matrix:
+ [[0.86740331 0.13259669]
+ [0.60655738 0.39344262]]
